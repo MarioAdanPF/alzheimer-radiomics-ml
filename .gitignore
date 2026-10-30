@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# WSL/Windows artifacts
+*:Zone.Identifier
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Datos de pacientes (ADNI) — nunca deben subirse a este repositorio
+subjects/
+Dataset_Maestro_Total.csv
+patients_*.xlsx
+analisis_manual/
+adni_meta/
+ADNIMERGE*.csv
+MRILIST*.csv
+idaSearch*.csv
+ctrl_vs_*.csv
+Tabla_Control_Calidad.xlsx
+
+# Tablas de resultados (se regeneran con los notebooks)
+Tabla_*.xlsx
+datos_procesados/
+
+# OS
+.DS_Store
+
+# Contexto de trabajo con herramientas de IA (no forma parte del pipeline)
+.agents/
+
+# Cachés y secretos
+*.pkl
+.env
